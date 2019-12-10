@@ -1,0 +1,47 @@
+
+     .publisher_box .publish_head_text {
+        position: absolute;
+        left: 20%;
+        top: 210px;
+        max-width:400px;
+        }
+        .publisher_box .publish_head_text .title1 {
+        font-size: 29px;
+        color: #191e25;
+        }
+        .publisher_box .media_img {
+        width: 30%;
+        position: absolute;
+        right: 27%;
+        top: 10%;
+        }
+/* mpa */
+.net-map {
+  background: #eff7fc;
+  padding-top: 40px;
+}
+.net-map .map_imgs img {
+  width: 60px;
+}
+.net-map .map_item sub {
+  vertical-align: baseline;
+}
+.net-map .map_item .map_item_title {
+  color: #303030;
+  font-size: 30px;
+  font-weight: 200;
+}
+/* channal */
+.hour24_box .right_text {
+  position: absolute;
+  right: 400px;
+  top: 40%;
+  max-width:300px;
+}
+/* tembox */
+.team_box .left_text {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+

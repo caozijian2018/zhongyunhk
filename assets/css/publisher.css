@@ -1,0 +1,46 @@
+  
+    .publisher_box .publish_head_text {
+        position: absolute;
+        left: 20%;
+        width:420px;
+        top: 180px;
+        }
+        .publisher_box .publish_head_text .title1 {
+        font-size: 29px;
+        color: #191e25;
+        }
+        .publisher_box .money_img {
+        width: 400px;
+        position: absolute;
+        right: 20%;
+        top: 50px;
+        }
+    /* allday */
+    .hour24_box .right_text {
+        position: absolute;
+        width:300px;
+        right: 20%;
+        top: 40%;
+    }
+    /* sennir */
+    .team_box .left_text {
+        position: absolute;
+        left: 20%;
+        width:300px;
+        top: 40%;
+    }
+    @media screen and (min-width:1500px){
+        .publisher_box .money_img {
+            right:19%;
+            top:80px;
+            width:500px;
+        }
+        .hour24_box .right_text {
+            right: 600px;
+        }
+        .team_box .left_text {
+            position: absolute;
+            left: 30%;
+            top: 40%;
+        }
+    }

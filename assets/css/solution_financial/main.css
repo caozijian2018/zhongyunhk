@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Arial, 'Microsoft Yahei', sans-serif;
+}
+body{
+  font-size: 14px;
+}
+.marginbottom25{
+  margin-bottom: 25px;
+}
+.margintop25{
+  margin-top: 25px;
+}
+.border-style-dashed{
+  border-bottom: 1px dashed rgb(176, 190, 197);;
+}
+.align-center{
+  text-align: center;
+}
+.float-block{
+  float: left;
+  min-width: 400px;
+}
+.clearfix{
+  clear: both;
+}
+.big-div{
+  width: 100%;
+}
+.div-striped{
+  background-color: #f7f8f9;
+}
+.middle-div{
+  width: 1140px;
+  margin: auto;
+  padding: 70px 0 60px;
+}
+.jinrong .solution{
+  width: 100%;
+  height: 490px;
+  color: white;
+  text-align: center;
+  background-image: url("../../../static/img/solution/banner-financial.png");
+}
+.jinrong .solution h1{
+  padding-top: 150px;
+  margin-bottom: 15px;
+  font-size: 34px;
+}
+.jinrong .solution p{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.jinrong .btn_group{
+  margin-top: 50px;
+}
+.jinrong .btn_group_a{
+  display: inline-block;
+  color: white;
+  margin: auto;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0 30px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.jinrong .btn_group_a:hover {
+  background-color: white;
+  color: #1374ec;
+}
+.jinrong .middle-div-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+}
+.jinrong .middle-div-p{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 1.75;
+  font-weight: normal;
+}
+/*TestBird金融整体解决方案*/
+.jinrong .overall-solution{
+  background-image: url("../../../static/img/solution/fin-total-bg.png");
+}
+.jinrong .overall-solution-top{
+  margin-top: 50px;
+  height: 130px;
+  margin-bottom: 15px;
+}
+.jinrong .overall-solution-block{
+  padding-top: 15px;
+  float: left;
+  width: 20%;
+}
+.jinrong .overall-solution-block a{
+  color: #1374ec;
+}
+.jinrong .overall-solution-block p{
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.jinrong .overall-solution-imgtext{
+  position: relative;
+  left: -28px;
+  padding-top: 95px;
+}
+.jinrong .overall-solution-imgtext a{
+  color: white;
+}
+.jinrong .overall-solution-title{
+  color: rgb(9, 86, 236);
+  font-size: 16px;
+  text-decoration: none;
+}
+.jinrong .overall-solution-center{
+  height: 105px;
+  margin-bottom: 15px;
+}
+.jinrong .overall-solution-imgtext2{
+  position: relative;
+  left: -27px;
+  padding-top: 45px;
+}
+.jinrong .overall-solution-imgtext2 a{
+  color: white;
+}
+.jinrong .overall-solution-bottom{
+  line-height: 85px;
+  height: 85px;
+  margin-bottom: 15px;
+}
+.overall-solution-bottom .overall-solution-block{
+  width: 40%;
+}
+.overall-solution-imgtext3{
+  position: relative;
+  left: 150px;
+}
+.overall-solution-imgtext3 a{
+  color: white;
+}
+/*TROC私有云平台有效提升APP迭代开发效率和质量*/
+.jinrong .middle-div2{
+  width: 1140px;
+  margin: auto;
+  /*padding: 70px 0 0;*/
+}
+.jinrong .troc-title-h2{
+  font-size: 28px;
+}
+.jinrong .troc-title-p{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.jinrong .position-center{
+  margin-top: 50px;
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*transform: translateY(-50%);*/
+  float: right;
+  /*right: 0;*/
+  min-width: 400px;
+}
+.jinrong .TROC-base-title{
+  color: #0070F0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.jinrong .TROC-min-title{
+  position: relative;
+  color: #0070F0;
+  padding-left: 15px;
+  margin: 20px 0 25px;
+  border-left: 7px solid #0070F0;
+}
+ul{
+  list-style: none;
+}
+.disc-style{
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.disc-style li{
+  padding-bottom: 10px;
+}
+
+.jinrong .float-block-left{
+  float: left;
+  width: 550px;
+  min-width: 400px;
+  margin-top: 150px;
+}
+.jinrong .float-block-left p{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.jinrong .solution-list li{
+  margin-bottom: 10px;
+}
+
+.columns{
+  overflow: hidden;
+}
+.columns-two .column-block{
+  width: 50%;
+}
+.columns .column-block{
+  float: left;
+}
+.jinrong .solution-colunm{
+  width: calc( 50% - 32px ) !important;
+  padding-left: 30px;
+  border-left: 1px solid #d8dce2;
+}
+.btn_group2{
+  margin-top: 30px;
+}
+.btn_group2_a{
+  display: inline-block;
+  color: #1374ec;
+  /*margin: auto;*/
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0 30px;
+  border: 1px solid #1374ec;
+  cursor: pointer;
+}
+.btn_group2_a:hover {
+  background-color: #1374ec;
+  color: white;
+}
+.jinrong .solution-block{
+  width: 550px;
+}
+.jinrong .solution-block p{
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+.jinrong .solution-colunm p{
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+
+
+.book-securities{
+  width: 1140px;
+  height: 500px;
+  background-size: 1140px 500px;
+  background-image: url("../../../static/img/solution/book-securities.png");
+}
+.book-h1{
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+.book-p{
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.text-wrap{
+  padding: 180px 85px;
+  width: 425px;
+  color: #fff;
+}
+.text-wrap h1{
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+.text-wrap p{
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+.last-h2{
+  font-size: 28px;
+}
+.partners {
+  margin-top: 35px;
+}

@@ -1,0 +1,236 @@
+/*!* 表格区域 *!*/
+/*.invisiable {*/
+  /*visibility: hidden;*/
+  /*z-index: -1;*/
+/*}*/
+
+/*.sprite {*/
+  /*background-image: url(../img/outsourcing/sprites@2x.png);*/
+  /*background-size: 5997px 100px;*/
+  /*display: inline-block;*/
+  /*-ms-behavior: url(/static/officialsite/htc/backgroundsize.min.htc);*/
+  /*behavior: url(/static/officialsite/htc/backgroundsize.min.htc);*/
+/*}*/
+
+/*.sprite-submit-success {*/
+  /*width: 57px;*/
+  /*height: 57px;*/
+  /*background-position: -100px 0;*/
+/*}*/
+
+/*.bottom-banner {*/
+  /*border: none;*/
+  /*background-image: url(../img/outsourcing/bottom-banner.png);*/
+  /*background-size: cover;*/
+  /*padding: 50px 0;*/
+  /*height: 600px;*/
+  /*position: relative;*/
+/*}*/
+
+/*.bottom-banner h2 {*/
+  /*color: #fff;*/
+  /*font-size: 24px;*/
+  /*text-align: center;*/
+/*}*/
+
+/*.bottom-banner p {*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+/*}*/
+
+/*.bottom-banner .form {*/
+  /*width: 975px;*/
+  /*height: 470px;*/
+  /*background-color: #fff;*/
+  /*position: absolute;*/
+  /*margin: 0 auto;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*top: 135px;*/
+  /*border-radius: 4px;*/
+  /*padding: 60px 0;*/
+  /*text-align: center;*/
+  /*-webkit-box-sizing: border-box;*/
+  /*-moz-box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
+/*}*/
+
+/*.bottom-banner .form-group {*/
+  /*padding: 0 100px;*/
+  /*width: 50%;*/
+  /*float: left;*/
+  /*-webkit-box-sizing: border-box;*/
+  /*-moz-box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
+  /*text-align: left;*/
+  /*margin-bottom: 20px;*/
+/*}*/
+
+/*.bottom-banner label {*/
+  /*font-size: 12px;*/
+  /*display: block;*/
+  /*margin-bottom: 10px;*/
+  /*!* Chinese and English characters have different line height even they have same font size on Windows*!*/
+  /*height: 16px;*/
+  /*line-height: 16px;*/
+/*}*/
+
+/*.bottom-banner label .error-text {*/
+  /*color: #f00;*/
+/*}*/
+
+/*.bottom-banner input {*/
+  /*font-size: 16px;*/
+  /*line-height: 30px;*/
+  /*border: none;*/
+  /*width: 260px;*/
+  /*border-bottom: 1px solid #eee;*/
+  /*outline: none;*/
+/*}*/
+
+/*.bottom-banner input.error {*/
+  /*border-bottom: 1px solid #f00;*/
+/*}*/
+
+/*.bottom-banner button {*/
+  /*color: #fff;*/
+  /*background-color: #0070f0;*/
+  /*height: 50px;*/
+  /*width: 300px;*/
+  /*border: none;*/
+  /*outline: none;*/
+  /*margin-top: 50px;*/
+  /*cursor: pointer;*/
+  /*font-size: 16px;*/
+/*}*/
+
+/*.bottom-banner .required {*/
+  /*color: #f00;*/
+  /*margin-left: 5px;*/
+/*}*/
+
+/*.bottom-banner .request-fail {*/
+  /*color: #f00;*/
+  /*font-size: 14px;*/
+/*}*/
+
+/*.bottom-banner .submit-success {*/
+  /*width: 675px;*/
+  /*height: 230px;*/
+  /*background-color: #fff;*/
+  /*position: absolute;*/
+  /*margin: 0 auto;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*top: 135px;*/
+  /*padding: 50px 0;*/
+  /*text-align: center;*/
+  /*-webkit-box-sizing: border-box;*/
+  /*-moz-box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
+/*}*/
+
+/*.bottom-banner .submit-success .sprite {*/
+  /*margin-bottom: 10px;*/
+/*}*/
+
+/*.bottom-banner .submit-success .main {*/
+  /*font-size: 20px;*/
+  /*margin-bottom: 10px;*/
+/*}*/
+
+/*!* 弹窗 *!*/
+/*.tb-overlay {*/
+  /*display:none;*/
+  /*position: fixed;*/
+  /*top:0;*/
+  /*left:0;*/
+  /*width:100%;*/
+  /*height:100%;*/
+  /*background-color: rgba(0,0,0,0.3);*/
+  /*z-index:100;*/
+/*}*/
+/*.tb-layer-wrap {*/
+  /*box-sizing:border-box;*/
+  /*width:570px;*/
+  /*position:absolute;*/
+  /*left:50%;*/
+  /*top:50%;*/
+  /*margin-left:-285px;*/
+  /*border-radius:3px;*/
+  /*background-color:#fff;*/
+  /*padding:45px 50px;*/
+/*}*/
+/*.tb-layer-close {*/
+  /*background-image: url('../img/icon-close.png');*/
+  /*background-size: 100%;*/
+  /*position: absolute;*/
+  /*right: -30px;*/
+  /*top: -30px;*/
+  /*width: 32px;*/
+  /*height: 32px;*/
+  /*cursor: pointer;*/
+/*}*/
+
+/*.tb-layer-close:hover{*/
+  /*background-position-y: 32px;*/
+/*}*/
+
+/*.bottom-banner input {*/
+  /*background-color: #fff;*/
+/*}*/
+
+/*.show-layer {*/
+  /*cursor: pointer;*/
+  /*line-height: 33px;*/
+  /*width: 260px;*/
+  /*padding: 0;*/
+  /*text-align: right;*/
+  /*position: absolute;*/
+  /*left: 90px;*/
+/*}*/
+
+/*.tb-overlay {*/
+  /*text-align: center;*/
+/*}*/
+
+/*.tb-overlay input {*/
+  /*width: 280px;*/
+  /*height: 20px;*/
+  /*padding: 10px;*/
+  /*margin-bottom: 5px;*/
+/*}*/
+
+/*.tb-overlay .get-verify-code, .tb-overlay .count-down {*/
+  /*color: #8792a3;*/
+  /*padding-right: 10px;*/
+  /*line-height: 40px;*/
+  /*position: absolute;*/
+  /*top: 110px;*/
+  /*right: 134px;*/
+/*}*/
+
+/*.tb-overlay .get-verify-code {*/
+  /*cursor: pointer;*/
+  /*color: #0070F0;*/
+/*}*/
+
+/*.tb-overlay .check-verify-code {*/
+  /*cursor: pointer;*/
+  /*color: #fff;*/
+  /*background-color: rgb(0, 112, 240);*/
+  /*height: 50px;*/
+  /*line-height: 50px;*/
+  /*width: 300px;*/
+  /*border: none;*/
+  /*margin: auto;*/
+  /*display: block;*/
+/*}*/
+
+/*.tb-overlay .error {*/
+  /*color: red;*/
+  /*font-size: 12px;*/
+  /*height: 20px;*/
+  /*margin: auto;*/
+  /*margin-bottom: 10px;*/
+/*}*/

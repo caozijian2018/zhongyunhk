@@ -1,0 +1,185 @@
+.bghui {
+  background-color: #f6f7f8;
+}
+
+.phone_show p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.colorblue {
+  color: #1374ec;
+}
+
+.phone-title-p {
+  font-size: 14px !important;
+  margin-bottom: 10px;
+}
+
+.margintop10 {
+  margin-top: 10px;
+}
+
+.margintop20 {
+  margin-top: 20px;
+}
+
+.margintop50 {
+  margin-top: 50px;
+}
+
+.paddingtop10 {
+  padding-top: 10px;
+}
+
+.paddingtop15 {
+  padding-top: 15px;
+}
+
+.paddingbottom10 {
+  padding-bottom: 10px;
+}
+
+.paddingbottom15 {
+  padding-bottom: 15px;
+}
+
+.phone_banner {
+  height: 160px;
+  background-image: url("../../../static/img/troc/TROC_bg.png");
+  background-size: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.phone_banner-text {
+  text-align: center;
+}
+
+.phone_banner-text-title {
+  font-size: 16px !important;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.phone_banner-text-p {
+  font-size: 12px;
+  padding: 0 20px;
+  color: white;
+}
+
+.phone-box {
+  width: 100%;
+  background-color: #f6f7f8;
+}
+
+.phone-box-title {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.phone-box-title-title {
+  text-align: center;
+  font-size: 14px !important;
+}
+
+.phone_show .phone-box-title-p {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.phone-box-div {
+  width: calc(90% - 40px);
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ebeff0;
+}
+
+/*100% Web云端平台，学习曲线低，30分钟生成第一份自动化脚本*/
+.troc-div1-title p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.troc-div1-img {
+  width: 100%;
+}
+
+.troc-div1-img img {
+  width: 100%;
+}
+
+.troc-div1-p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.troc-div1-imgtitle {
+  color: #1374ec;
+  font-size: 12px !important;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.disc-style {
+  list-style-type: disc;
+}
+
+.disc-style li {
+  padding-bottom: 10px;
+}
+
+.troc-div2-box {
+  width: 100%;
+}
+
+.troc-div2-box-img {
+  float: left;
+  width: 30%;
+  min-width: 80px;
+}
+
+.troc-div2-box-img img {
+  width: 100%;
+}
+
+.troc-div2-box-p {
+  float: left;
+  width: calc(70% - 10px);
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 12px !important;
+}
+
+.foot_img {
+  width: 100%;
+  height: 100px;
+  color: white;
+  line-height: 100px;
+  font-size: 12px;
+  text-align: center;
+  background-image: url("../../../static/img/solution_mobile_game/foot_lianxi.png");
+}
+
+.troc-div3-box-img {
+  float: left;
+  width: 20%;
+  min-width: 50px;
+}
+
+.troc-div3-box-img img {
+  width: 100%;
+}
+
+.troc-div3-box-p {
+  float: left;
+  width: calc(80% - 10px);
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 12px !important;
+}
