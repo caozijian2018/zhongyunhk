@@ -4,4 +4,4 @@
 nvm use 8
 npm install
 npm run build
-pm2 restart testbird_official_website
+pm2 restart zhongyunhk

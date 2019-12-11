@@ -40,7 +40,7 @@ module.exports = {
     WTAT_THIS_APP: "humorboom"
   },
   head: {
-    title: 'TestBird - 移动互联测试专家',
+    title: 'Zhongyun',
     meta: [{
         charset: 'utf-8'
       },
