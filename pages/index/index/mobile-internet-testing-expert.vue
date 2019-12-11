@@ -597,7 +597,7 @@
         </section>
 
         <section class="block-5">
-          <h2>企业合作伙伴</h2>
+          <h2>Partener</h2>
           <el-carousel
             indicator-position="none"
             height="250px"

@@ -14,15 +14,15 @@
                     <div class="left_box transform_duration1 transilateY3">
                         <h2 class="go_to_sea_title h1_font">ABOUT US</h2>
                         <div class="go_to_sea_desc">
-                            Founded in 2016, Zhongyun HK Limited <br>
-                            is a dynamic innovative company. Its founders are <br>
-                             from Qinghua University, Hong Kong University of<br>
-                              Science and Technology and China University of Technology,<br>
-                               and have working experience in Google, Tencent and other major companies.<br>
-                                We know the time of trend well, and always keep abreast with it.<br>
-                                 Zhongyun HK Limited emphasizes the importance of technology.<br>
-                                  With technology, we are able to provide colorful <br>
-                                  applications and content to netizens wordwide. <br>
+                            Founded in 2016, Zhongyun HK Limited  
+                            is a dynamic innovative company. Its founders are  
+                             from Qinghua University, Hong Kong University of 
+                              Science and Technology and China University of Technology,
+                               and have working experience in Google, Tencent and other major companies.
+                                We know the time of trend well, and always keep abreast with it.
+                                 Zhongyun HK Limited emphasizes the importance of technology.
+                                  With technology, we are able to provide colorful 
+                                  applications and content to netizens wordwide. 
                             <div class="go_to_sea_button_box">
                                 <!-- <a class="btn banner-btn">TBmedia</a> -->
                                 <!-- <a class="glo_button app_button green" @click="nuxtLinkJump('/media')">TBmedia</a>
@@ -76,20 +76,17 @@
             <div class="mobile_h3_font classmobile_oversea_title text_center">ABOUT US</div>
             <div class="mobile_sub_title game_desc width_80 margin_auto margin_top_20 text_center">
                 Founded in 2016, Zhongyun HK Limited 
-                is a dynamic innovative company. Its <br>
+                is a dynamic innovative company. Its 
                 founders are from 
-                Qinghua University, Hong Kong University<br>
-                 of Science and Technology and China University <br>
-                 of Technology, and have working experience in Google,<br>
-                  Tencent and other major companies. We know the time of trend well,<br>
-                   and always keep abreast with it. Zhongyun HK Limited emphasizes the importance of technology.<br>
-                    With technology, we are able to provide colorful<br>
-                     applications and content to netizens wordwide. <br>
+                Qinghua University, Hong Kong University
+                 of Science and Technology and China University 
+                 of Technology, and have working experience in Google,
+                  Tencent and other major companies. We know the time of trend well,
+                   and always keep abreast with it. Zhongyun HK Limited emphasizes the importance of technology.
+                    With technology, we are able to provide colorful
+                     applications and content to netizens wordwide.
             </div>
-            <div class="margin_top_20 width_80 margin_auto display_flex flex_jusify_space">
-              <app-button button-text="TBmedia" @click.native="nuxtLinkJump('/media')"></app-button>
-              <app-button :button-text="$t('words.marketingsolutions')" @click.native="nuxtLinkJump('/network')"></app-button>
-            </div>
+            
         </div>
     </div>
 </template>

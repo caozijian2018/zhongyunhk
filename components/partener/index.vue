@@ -43,18 +43,48 @@
             </div>
         </div>
         <!-- phone -->
-        <div class="phone_show">
+        <div class="phone_show phone_partner">
             <div class="width_95 margin_auto margin_top_4 partener_box ">
-                <model-desc :desc="$t('words.corporate_partner')" class></model-desc>
+                <model-desc desc="Partner" class></model-desc>
                 <el-carousel
                     indicator-position="outside"
                     class="width_100 patner_img"
                     arrow="never"
-                    height="230px"
+                    height="70px"
                 >
-                    <el-carousel-item v-for="item in mobile_partner_logo" :key="item">
+                    <!-- <el-carousel-item v-for="item in mobile_partner_logo" :key="item">
                         <div class="margin_top_20">
                             <img :src="item" class="width_100">
+                        </div>
+                    </el-carousel-item> -->
+                    <el-carousel-item >
+                        <div class="width_70 margin_auto display_flex flex_jusify_space margin_top_20">
+                            <!-- <img :src="item" class="width_100"> -->
+                            <img src="../../static/img/partener/logo01.gif" alt="">
+                            <img src="../../static/img/partener/logo02.gif" alt="">
+                            <img src="../../static/img/partener/logo03.gif" alt="">
+                            <img src="../../static/img/partener/logo04.gif" alt="">
+                            <!-- <img v-for="img in arr" :src="img" :key="img" style="width: 100px" alt=""> -->
+                        </div>
+                    </el-carousel-item>
+                    <el-carousel-item >
+                        <div class="width_70 margin_auto display_flex flex_jusify_space margin_top_20">
+                            <!-- <img :src="item" class="width_100"> -->
+                            <img src="../../static/img/partener/logo05.gif" alt="">
+                            <img src="../../static/img/partener/logo06.gif" alt="">
+                            <img src="../../static/img/partener/logo07.gif" alt="">
+                            <img src="../../static/img/partener/logo08.gif" alt="">
+
+                            <!-- <img v-for="img in arr" :src="img" :key="img" style="width: 100px" alt=""> -->
+                        </div>
+                    </el-carousel-item>
+                    <el-carousel-item >
+                        <div class="width_70 margin_auto display_flex flex_jusify_space margin_top_20">
+                            <!-- <img :src="item" class="width_100"> -->
+                            <img src="../../static/img/partener/logo09.gif" alt="">
+                            <img src="../../static/img/partener/logo10.gif" alt="">
+                            <img src="../../static/img/partener/logo11.gif" alt="">
+                            <img src="../../static/img/partener/logo12.gif" alt="">
                         </div>
                     </el-carousel-item>
                 </el-carousel>
@@ -140,6 +170,11 @@ export default {
 @import "../../assets/css/glo";
 .partener_box_div {
     .phone_show {
+        .patner_img{
+            img{
+                width: 22%;
+            }
+        }
         background: url(../../static/img/index_mobile/products-bg.png) no-repeat;
         background-size: 103%;
         .el-carousel__button {
@@ -171,6 +206,7 @@ export default {
             background: url(../../static/img/products/5.png) no-repeat;
             background-size: 103%;
             @media screen and (max-width:1500px){
+                
                 background-size: 133%;
             }
             .partener_img {

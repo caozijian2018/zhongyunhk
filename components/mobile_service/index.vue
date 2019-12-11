@@ -130,8 +130,8 @@
             <div class="phone_service">
                 <img class="width_100" src="../../static/img/index_img/product-bg02.png" alt>
                 <div class="width_70 margin_auto text_center">
-                    <h2 class="padding_top_20">{{$t('words.quality_management')}}</h2>
-                    <div class="margin_top_20">{{$t('words.marketing_risk')}}</div>
+                    <h2 class="padding_top_20">Digital Mobile Content</h2>
+                    <div class="margin_top_20">We have abundant mobile content ranging from games, videos, adult to fitness. The content is updated regularly by professional team. We also help monetize the content of third-party partners. </div>
                 </div>
                 <div v-if="show_all_1" class="margin_top_20">
                     <div class="display_flex flex_align_center width_95 margin_auto mobile_item" @click="nuxtLinkJump('/'+item.route)"  v-for="(item,index) in hover_1_text" :class="{border_bottom:index < hover_1_text.length-1}" :key="item.title">
@@ -149,15 +149,15 @@
             <div class="phone_service margin_top_10">
                 <img class="width_100" src="../../static/img/index_img/product-bg01.png" alt>
                 <div class="width_70 margin_auto text_center">
-                    <h2 class="padding_top_20">{{$t('words.digital_platform')}} </h2>
-                    <div class="margin_top_20 mobile_sub_title">{{$t('words.accuracyTBmedia')}}</div>
+                    <h2 class="padding_top_20">Marketing and Advertising </h2>
+                    <div class="margin_top_20 mobile_sub_title">With our own media buy team and publisher partners, we are able to provide high quality traffic for companies globally. You can get overseas users easily and efficiently.</div>
                 </div>
                 <div v-if="show_all_2" class="margin_top_20">
                     <div class="display_flex flex_align_center width_95 margin_auto mobile_item" @click="nuxtLinkJump('/'+item.route)"  v-for="(item,index) in hover_2_text" :class="{border_bottom:index < hover_2_text.length-1}" :key="item.title">
                         <img :src="item.mobile_img_icon" class="icon" alt>
                         <div class>
-                            <div class="mobile_h3_font">{{item.title}}</div>
-                            <div class="mobile_sub_title service_desc">{{item.desc}}</div>
+                            <div class="mobile_h3_font">Marketing and Advertising</div>
+                            <div class="mobile_sub_title service_desc">With our own media buy team and publisher partners, we are able to provide high quality traffic for companies globally. You can get overseas users easily and efficiently.</div>
                         </div>
                     </div>
                 </div>

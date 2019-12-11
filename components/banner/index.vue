@@ -44,7 +44,7 @@
             </el-carousel>
         </div>
         <div class="head_banner_phone phone_show margin_bottom_3">
-            <el-carousel height="360px" arrow="never" indicator-position="outside">
+            <el-carousel height="360px" arrow="never" indicator-position="none">
                 <el-carousel-item>
                     <div class="position_relative text_center">
                         <img
@@ -58,44 +58,9 @@
                             style="top:120px;"
                             alt
                         />
-                        <h1 class="banner_img_left_text" style="font-size:19px;">{{$t('words.banner1_1')}} <br> {{$t('words.banner1_2')}}</h1>
+                        <h1 class="banner_img_left_text" style="font-size:19px;">Mobile Business Expert<br>Work with us to deliver fruitful results!</h1>
                     </div>
                 </el-carousel-item>
-                <el-carousel-item>
-                    <div class="position_relative text_center">
-                        <img
-                            src="../../static/img/index_mobile/banner-bg.png"
-                            class="transiform_100 width_95 margin_left_5p"
-                            alt
-                        />
-                        <img
-                            src="../../static/img/index_mobile/banner-img02.png"
-                            class="pcs width_80"
-                            style="top:100px;"
-                            alt
-                        />
-                        <h1 class="banner_img_left_text">{{$t('words.overseas_marketing1')}}</h1>
-                        <h3 class="banner_img_left_text2">{{$t('words.omnimediamarketing_platform')}}</h3>
-                    </div>
-                </el-carousel-item>
-                <el-carousel-item>
-                    <div class="position_relative text_center">
-                        <img
-                            src="../../static/img/index_mobile/banner-bg.png"
-                            class="transiform_100 width_95 margin_left_5p"
-                            alt
-                        />
-                        <img
-                            src="../../static/img/index_mobile/banner-img01.png"
-                            class="pcs width_60"
-                            style="top:120px;"
-                            alt
-                        />
-                        <h1 class="banner_img_left_text">{{$t('words.test_expert')}}</h1>
-                        <h3 class="banner_img_left_text2">{{$t('words.tolaunch')}}</h3>
-                    </div>
-                </el-carousel-item>
-                
             </el-carousel>
         </div>
     </div>
