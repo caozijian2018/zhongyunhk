@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="pc_show margin_top_100">
-            <div class="text_center scoll_desc">
+            <!-- <div class="text_center scoll_desc">
                 <h2 class="index_title">{{$t('words.mobile_applications')}}</h2>
                 <div class="index_title_sub">{{$t('words.half_the_effort')}}</div>
-            </div>
+            </div> -->
             <div class="padding_scoll_box1 position_relative">
                 <img
                     src="../../static/img/games2background/index_back1.png"
@@ -23,15 +23,15 @@
                                 style=" transform:translatez(0px)"
                             >
                                 <img
-                                    src="../../static/img/index_img/product-bg02.png"
+                                    src="../../static/img/computer.jpg"
                                     class="width_100"
                                 >
                                 <div class="products_box">
-                                    <h2 class="products_box_title font_weight_600">{{$t('words.quality_management')}}</h2>
+                                    <h2 class="products_box_title font_weight_600">Digital Mobile Content </h2>
                                     <div
-                                        v-html="$t('words.marketing_risk')"
                                         class="width_90 margin_auto  mobile_sub_title products_box_desc"
                                     >
+                                        We have abundant mobile content ranging from games, videos, adult to fitness. The content is updated regularly by professional team. We also help monetize the content of third-party partners. 
                                     </div>
                                 </div>
                             </div>
@@ -77,15 +77,16 @@
                                 style=" transform:translatez(0px)"
                             >
                                 <img
-                                    src="../../static/img/index_img/product-bg01.png"
+                                    src="../../static/img/camera.jpg"
                                     class="width_100"
                                 >
                                 <div class="products_box">
-                                    <h2 class="products_box_title font_weight_600">{{$t('words.digital_platform')}}</h2>
+                                    <h2 class="products_box_title font_weight_600">Marketing and Advertising</h2>
                                     <div
-                                        v-html="$t('words.accuracyTBmedia')"
+                                         
                                         class="width_90 margin_auto products_box_desc"
                                     >
+                                        With our own media buy team and publisher partners, we are able to provide high quality traffic for companies globally. You can get overseas users easily and efficiently.
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +287,7 @@ export default {
         bottom: 70px;
     }
     .padding_scoll_box1 .products_index_box:hover .products_index {
-        transform: rotateY(180deg);
+        // transform: rotateY(180deg);
     }
     .padding_scoll_box1 .products_index .products_box {
         margin-top: -8px;

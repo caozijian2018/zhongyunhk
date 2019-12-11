@@ -5,6 +5,7 @@
                 :height="swiper_height"
                 @change="changeSwiper"
                 :interval="119000"
+                indicator-position="none"
                 arrow="never"
             >
                 <!--  -->
@@ -18,12 +19,12 @@
                                 <h1
                                     class="banner_img_left_text transiform_200"
                                     style="font-size:27px;"
-                                >{{$t('words.banner1_1')}}<br>{{$t('words.banner1_2')}}</h1>
-                                <app-button
+                                >Mobile Business Expert<br>Work with us to deliver fruitful results! </h1>
+                                <!-- <app-button
                                     class="transiform_100 margin_top_100"
                                     @click.native="nuxtLinkJump('https://jinshuju.net/f/sXSj7B', true)"
                                     :button-text="$t('words.click_to_download')"
-                                ></app-button>
+                                ></app-button> -->
                             </div>
                         </div>
                         <div class="flex_1 height_100 overflow_hidden position_relative">
@@ -40,69 +41,6 @@
                         </div>
                     </div>
                 </el-carousel-item>
-                <el-carousel-item>
-                    <div
-                        class="height_100 display_flex flex_jusify_space banner"
-                        :class="{recovery_location:current_swiper_index == 1}"
-                    >
-                        <div class="flex_1 height_100 display_flex flex_end">
-                            <div class="glo_width_percent height_100 text_left">
-                                <h1 class="banner_img_left_text transiform_200">{{$t('words.overseas_marketing1')}}</h1>
-                                <h3 class="banner_img_left_text2 transiform_200">{{$t('words.omnimediamarketing_platform')}}</h3>
-                                <app-button
-                                    class="transiform_100 margin_top_100"
-                                    @click.native="nuxtLinkJump('/media')"
-                                    :button-text="$t('words.on_the_understanding')"
-                                ></app-button>
-                            </div>
-                        </div>
-                        <div class="flex_1 height_100 overflow_hidden position_relative">
-                            <img
-                                src="../../static/img/banner/banner-bg.png"
-                                class="width_100 transiform_100"
-                                alt
-                            />
-                            <img
-                                src="../../static/img/banner/banner-img02.png"
-                                class="width_60 img2_position transiform_300"
-                                alt
-                            />
-                        </div>
-                    </div>
-                </el-carousel-item>
-                <el-carousel-item>
-                    <div
-                        class="height_100 display_flex flex_jusify_space banner"
-                        :class="{recovery_location:current_swiper_index == 2}"
-                    >
-                        <div class="flex_1 height_100 display_flex flex_end">
-                            <div class="glo_width_percent height_100 text_left">
-                                <h1 class="banner_img_left_text transiform_200">{{$t('words.test_expert')}}</h1>
-                                <h3
-                                    class="banner_img_left_text2 transiform_200"
-                                >{{$t('words.tolaunch')}}</h3>
-                                <app-button
-                                    class="transiform_100 margin_top_100"
-                                    @click.native="nuxtLinkJump('/mobile-internet-testing-expert')"
-                                    :button-text="$t('words.start_testing')"
-                                ></app-button>
-                            </div>
-                        </div>
-                        <div class="flex_1 height_100 overflow_hidden position_relative">
-                            <img
-                                src="../../static/img/banner/banner-bg.png"
-                                class="width_100 transiform_100"
-                                alt
-                            />
-                            <img
-                                src="../../static/img/banner/banner-img01.png"
-                                class="width_60 img1_position transiform_300"
-                                alt
-                            />
-                        </div>
-                    </div>
-                </el-carousel-item>
-                
             </el-carousel>
         </div>
         <div class="head_banner_phone phone_show margin_bottom_3">

@@ -1,6 +1,6 @@
 <template>
-    <div class="bottom_nav ">
-        <div class="height_100 white glo_width_percent margin_auto display_flex flex_align_center flex_jusify_space">
+    <div class="bottom_nav">
+        <!-- <div class="height_100 white glo_width_percent margin_auto display_flex flex_align_center flex_jusify_space">
             <div class="left_font">
                 {{$t('words.o_be_my_partner')}}
             </div>
@@ -13,7 +13,7 @@
                 <app-button  class="green margin_left_10" :buttonText="$t('words.testing_services')"></app-button>
 
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

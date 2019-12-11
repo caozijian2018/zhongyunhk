@@ -12,19 +12,25 @@
                 >
                     <!-- 左面的出海描述 -->
                     <div class="left_box transform_duration1 transilateY3">
-                        <h2 class="go_to_sea_title h1_font">{{$t('words.marketingsolutions')}}</h2>
-                        <div class="go_to_sea_desc">{{$t('words.media_platforms')}}
-                            <br>{{$t('words.scale_marketing')}}
-                            <br>{{$t('words.traffic_resources')}}
-                            <br>{{$t('words.investment_returns')}}
+                        <h2 class="go_to_sea_title h1_font">ABOUT US</h2>
+                        <div class="go_to_sea_desc">
+                            Founded in 2016, Zhongyun HK Limited <br>
+                            is a dynamic innovative company. Its founders are <br>
+                             from Qinghua University, Hong Kong University of<br>
+                              Science and Technology and China University of Technology,<br>
+                               and have working experience in Google, Tencent and other major companies.<br>
+                                We know the time of trend well, and always keep abreast with it.<br>
+                                 Zhongyun HK Limited emphasizes the importance of technology.<br>
+                                  With technology, we are able to provide colorful <br>
+                                  applications and content to netizens wordwide. <br>
                             <div class="go_to_sea_button_box">
                                 <!-- <a class="btn banner-btn">TBmedia</a> -->
-                                <a class="glo_button app_button green" @click="nuxtLinkJump('/media')">TBmedia</a>
+                                <!-- <a class="glo_button app_button green" @click="nuxtLinkJump('/media')">TBmedia</a>
                                 <a
                                     class="glo_button app_button green"
                                     style="margin-left:30px;display:inline-block;"
                                     @click="nuxtLinkJump('/network')"
-                                >{{$t('words.advertising_alliance')}} </a>
+                                >{{$t('words.advertising_alliance')}} </a> -->
                             </div>
                         </div>
                     </div>
@@ -67,12 +73,18 @@
                 <img src="../../static/img/index_mobile/overseas-img.png" class="width_90 pcs" alt>
             </div>
             <!-- text -->
-            <div class="mobile_h3_font classmobile_oversea_title text_center">{{$t('words.marketingsolutions')}}</div>
+            <div class="mobile_h3_font classmobile_oversea_title text_center">ABOUT US</div>
             <div class="mobile_sub_title game_desc width_80 margin_auto margin_top_20 text_center">
-                {{$t('words.media_platforms')}}
-                {{$t('words.scale_marketing')}}
-                {{$t('words.traffic_resources')}} 
-                {{$t('words.investment_returns')}} 
+                Founded in 2016, Zhongyun HK Limited 
+                is a dynamic innovative company. Its <br>
+                founders are from 
+                Qinghua University, Hong Kong University<br>
+                 of Science and Technology and China University <br>
+                 of Technology, and have working experience in Google,<br>
+                  Tencent and other major companies. We know the time of trend well,<br>
+                   and always keep abreast with it. Zhongyun HK Limited emphasizes the importance of technology.<br>
+                    With technology, we are able to provide colorful<br>
+                     applications and content to netizens wordwide. <br>
             </div>
             <div class="margin_top_20 width_80 margin_auto display_flex flex_jusify_space">
               <app-button button-text="TBmedia" @click.native="nuxtLinkJump('/media')"></app-button>

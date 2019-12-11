@@ -9,30 +9,6 @@
           class="img_logo margin_right_20"
           alt
         >
-        <ul>
-          <li
-            class="a title_text cursor height_100 head_title_box padding_left_20 padding_right_20"
-            :class="{'textbottom':v.active,'showBody':v.show}"
-            v-for="(v,index) in head_title_arr"
-            :key="v.name"
-            @mouseover="enter(v,index)"
-          >
-            <div v-if="v.id===1">
-              <nuxt-link to="/">
-                {{v.name}}
-              </nuxt-link>
-            </div>
-            <div v-else-if="v.id===5">
-              <nuxt-link to="/about">
-                {{v.name}}
-              </nuxt-link>
-            </div>
-            <div v-else>
-              {{v.name}}
-            </div>
-
-          </li>
-        </ul>
         <div class="header_body" :class="listStatu" :style="{left: changLeft}" v-show="showNav_pc">
           <div class="header_body_chiled">
             <div class="header_body_title" v-if="hoverSelect.id===2" @click="act">
@@ -102,26 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="with_30 height_100 display_flex flex_align_center">
-        <div @click="login">
-          <app-button :has-border="true" :button-text="$t('words.landing')"></app-button>
-        </div>
-        <div @click="register">
-          <app-button :button-text="$t('words.registered')" class="margin_left_14"></app-button>
-        </div>
-        <div class="change_lang_box" v-if="show_change_lang" style="margin-left: 15px">
-          <div
-            :class="selected_index == 'zh' ? 'selected_lang' : ''"
-            @click="changeLang('zh')"
-          >中文
-          </div>
-          <div
-            :class="selected_index == 'en' ? 'selected_lang' : ''"
-            @click="changeLang('en')"
-          >English
-          </div>
-        </div>
-      </div>
+       
     </div>
     <!--Phone-->
     <div class="phone_show flex_jusify_space display_flex height_100 header_margin">
@@ -132,92 +89,6 @@
           class="img_logo margin_right_20"
           alt
         >
-      </div>
-      <div class="with10 height_100 display_flex flex_align_center">
-        <div @click="showNav" class="bigmenu">
-          <div class="bigmenu_div1"></div>
-          <div class="bigmenu_div2"></div>
-          <div class="bigmenu_div3"></div>
-        </div>
-        <div class="beijingmengban" @click="showNav" v-show="showNavBody"></div>
-        <div class="nav_body" v-show="showNavBody">
-          <div class="phone-shouye phone-shouye-boder" @click="showNav">
-            <nuxt-link to="/">
-              <h3 class="header_phone_title">{{$t('words.home_page')}}</h3>
-            </nuxt-link>
-          </div>
-          <el-collapse v-model="activeName" accordion @change="changeNav">
-            <el-collapse-item :name="item.id" v-for="(item,index) in phone_head_title_arr" :key="index"
-                              v-if="item.id!==4">
-              <template slot="title">
-                <h3 class="header_phone_title">{{item.name}}</h3>
-              </template>
-              <div class="phone_header_body_title" v-if="phoneSelect.id===2" @click="act">
-                <app-button :has-border="true" :button-text="btnText"></app-button>
-              </div>
-              <div class="phone_body_title">
-                {{body_title_text}}
-              </div>
-              <div v-if="phoneSelect.id===2">
-                <ul class="ul_float phone_bottom_border_head">
-                  <li>云测试服务</li>
-                </ul>
-                <ul class="ul_float phone_bottom_border_head">
-                  <li>众测服务</li>
-                </ul>
-                <ul class="ul_float phone_bottom_border_head">
-                  <li>自动化测试平台</li>
-                </ul>
-              </div>
-              <div>
-                <ul class="phone_header_body_ul ul_float" v-for="(i,n) in showData" :key="n">
-                  <li v-for="(item,index) in i" :key="index" class="phone_li_body_text" @click="showNav">
-                    <nuxt-link :to="item.link">
-                        <span v-if="item.name=='The publishers' && showcp" class="body_text">
-                          Content Provider
-                        </span>
-                        <span v-else class="phone_body_text">
-                            {{item.name}}
-                        </span>
-                    </nuxt-link>
-                  </li>
-                </ul>
-              </div>
-              <div style="clear: both;"></div>
-              <div class="" v-if="phoneSelect.id===2">
-                <div class="phone_body_title">
-                  行业测试解决方案
-                </div>
-                <div>
-                  <ul class="phone_header_body_ul ul_float2" style="margin-bottom: 10px">
-                    <li class="phone_li_body_text" @click="showNav">
-                      <nuxt-link to="/solution-mobile-game">
-                          <span class="phone_body_text">
-                            手游行业测试解决方案
-                          </span>
-                      </nuxt-link>
-                    </li>
-                  </ul>
-                  <ul class="phone_header_body_ul ul_float2" style="margin-bottom: 10px">
-                    <li class="phone_li_body_text" @click="showNav">
-                      <nuxt-link to="/solution-financial">
-                          <span class="phone_body_text">
-                            金融行业测试解决方案
-                          </span>
-                      </nuxt-link>
-                    </li>
-                  </ul>
-                </div>
-                <div style="clear: both"></div>
-              </div>
-            </el-collapse-item>
-          </el-collapse>
-          <div class="phone-shouye" @click="showNav">
-            <nuxt-link to="/about">
-              <h3 class="header_phone_title">关于我们</h3>
-            </nuxt-link>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -498,7 +369,7 @@
   @head_height: 50px;
   .head_box {
     .img_logo {
-      width: 74px;
+      width: 154px;
     }
     color: @font_color;
     height: @head_height;

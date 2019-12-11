@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="go_top_box">
-            <div @click="goTopBoxJump(1)"></div>
-            <div @click="goTopBoxJump(2)"></div>
+            <!-- <div @click="goTopBoxJump(1)"></div>
+            <div @click="goTopBoxJump(2)"></div> -->
             <div @click="goTopBoxJump(3)"></div>
-            <div class="details contact">
+            <!-- <div class="details contact">
                 <div class="head">联系方式</div>
                 <div class="display_flex flex_jusify_space wrop">
                     <div class="contact-block width_45">
@@ -30,7 +30,7 @@
                     <div class="region">客服电话</div>
                     <div class="regional-manager">028-61666170</div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
@@ -105,13 +105,13 @@ export default {
         cursor: pointer;
         border-radius: 36px;
         box-shadow: 0px 5px 8px 0px rgba(166, 215, 252, 0.28);
-        &:nth-child(2) {
-            background-position: -36px 0;
-            &:hover ~ .contact {
-                display: block;
-            }
-        }
-        &:nth-child(3) {
+        // &:nth-child(2) {
+        //     background-position: -36px 0;
+        //     &:hover ~ .contact {
+        //         display: block;
+        //     }
+        // }
+        &:nth-child(1) {
             background-position: -72px 0;
         }
     }

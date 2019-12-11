@@ -4,7 +4,7 @@
         <div class="flex_1 overflow_scroll scroll_box scroll_slide" @scroll="scroll">
             <!-- <login-box v-if="show_login" @close="show_login=false"></login-box> -->
             <nuxt-child style="-webkit-overflow-scrolling: touch;"></nuxt-child>
-            <app-footer></app-footer>
+            <!-- <app-footer></app-footer> -->
             <right-bottom-box class="pc_show"></right-bottom-box>
         </div>
     </div>

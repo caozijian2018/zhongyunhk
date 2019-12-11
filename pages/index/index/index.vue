@@ -37,7 +37,7 @@
                 ref="sea"
                 :show-document="scroll_most_value + (inner_height)> show_arr[4]"
             ></sea>
-            <company-dynamics class="pc_show" v-if="newsDataArr.length" :news-data="newsDataArr"></company-dynamics>
+            <!-- <company-dynamics class="pc_show" v-if="newsDataArr.length" :news-data="newsDataArr"></company-dynamics> -->
             <partener></partener>
             <want-be-partner></want-be-partner>
         </div>
@@ -48,7 +48,7 @@
 import videoBanner from "../../../components/banner";
 import newBox from "../../../components/new_box";
 import modelDesc from "../../../components/model_desc";
-import companyDynamics from "../../../components/company_dynamics";
+// import companyDynamics from "../../../components/company_dynamics";
 import partener from "../../../components/partener";
 import wantBePartner from "../../../components/want_be_partner";
 import sea from "../../../components/sea";
@@ -84,7 +84,7 @@ export default {
         newBox,
         modelDesc,
         partener,
-        companyDynamics,
+        // companyDynamics,
         sea,
         mobileFix,
         games,
