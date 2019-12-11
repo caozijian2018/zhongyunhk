@@ -4,7 +4,7 @@
         <media-delivery ref="media_delivery" :class="{transition_back: scroll_most_value + (inner_height)> show_arr[1]}"></media-delivery>
         <network-solution ref="network_solution" :class="{transition_back: scroll_most_value + (inner_height)> show_arr[2]}"></network-solution>
         <regiest class="marign_top-4 blue"  ref="regiest" :class="{transition_back: scroll_most_value + (inner_height)> show_arr[3]}"></regiest>
-        <!-- <app-footer></app-footer> -->
+        <app-footer></app-footer>
     </div>
 </template>
 
@@ -13,7 +13,7 @@ import advHead from "../../../components/adv_head";
 import mediaDelivery from "../../../components/media_delivery";
 import networkSolution from "../../../components/network_solution";
 import regiest from "../../../components/regiest";
-// import appFooter from "../../../components/app_footer";
+import appFooter from "../../../components/app_footer";
 import bus from "../../../util/bus";
 export default {
     head(){
@@ -30,7 +30,7 @@ export default {
         mediaDelivery,
         networkSolution,
         regiest,
-        // appFooter
+        appFooter
     },
     mounted() {
         this.whatchScroll();

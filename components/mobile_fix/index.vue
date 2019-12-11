@@ -25,14 +25,14 @@
                                     style="margin-bottom: 30px"
                                 >FOR USERS AND PARTNERS</h2>
                                 <div class="sub_title">
-                                    We produce outstanding and fine digital products <br>
-                                     and promote campaigns to attract overseas users.<br>
-                                    We provide exclusive, high-quality<br>
-                                     and pleasant mobile content to netizens all over<br>
-                                      the world. After you subscribe our services, we<br>
-                                       guarantee you the joy of browsing our products.<br>
-                                    Our professional advertising team also<br>
-                                     works closely with you to help attract overseas users and achieve the victory of both sides.<br>
+                                    We produce outstanding and fine digital products 
+                                     and promote campaigns to attract overseas users.
+                                    We provide exclusive, high-quality
+                                     and pleasant mobile content to netizens all over
+                                      the world. After you subscribe our services, we
+                                       guarantee you the joy of browsing our products.
+                                    Our professional advertising team also
+                                     works closely with you to help attract overseas users and achieve the victory of both sides.
                                     <div style="margin-top:62px;">
                                     </div>
                                 </div>
@@ -55,15 +55,15 @@
             <!-- text -->
             <div class="mobile_h3_font classmobile_oversea_title text_center">FOR USERS AND Partners</div>
             <div class="mobile_sub_title game_desc width_80 margin_auto margin_top_20 text_center">
-                We produce outstanding and fine digital products<br>
-                 and promote campaigns to attract overseas users.<br>
-                We provide exclusive, high-quality and pleasant<br>
-                 mobile content to netizens all over the world.<br>
-                  After you subscribe our services, we guarantee<br>
-                   you the joy of browsing our products.<br>
-                Our professional advertising team also works closely<br>
-                 with you to help attract overseas users and achieve<br>
-                  the victory of both sides.<br>
+                We produce outstanding and fine digital products
+                 and promote campaigns to attract overseas users.
+                We provide exclusive, high-quality and pleasant
+                 mobile content to netizens all over the world.
+                  After you subscribe our services, we guarantee
+                   you the joy of browsing our products.
+                Our professional advertising team also works closely
+                 with you to help attract overseas users and achieve
+                  the victory of both sides.
             </div>
             <div class="margin_top_20 width_80 margin_auto display_flex flex_jusify_space">
             </div>

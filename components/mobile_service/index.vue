@@ -23,7 +23,7 @@
                                 style=" transform:translatez(0px)"
                             >
                                 <img
-                                    src="../../static/img/computer.jpg"
+                                    src="../../static/img/camera.jpg"
                                     class="width_100"
                                 >
                                 <div class="products_box">
@@ -77,13 +77,12 @@
                                 style=" transform:translatez(0px)"
                             >
                                 <img
-                                    src="../../static/img/camera.jpg"
+                                    src="../../static/img/computer.jpg"
                                     class="width_100"
                                 >
                                 <div class="products_box">
                                     <h2 class="products_box_title font_weight_600">Marketing and Advertising</h2>
                                     <div
-                                         
                                         class="width_90 margin_auto products_box_desc"
                                     >
                                         With our own media buy team and publisher partners, we are able to provide high quality traffic for companies globally. You can get overseas users easily and efficiently.
@@ -128,7 +127,7 @@
         </div>
         <div class="phone_show width_95 margin_auto margin_top_10">
             <div class="phone_service">
-                <img class="width_100" src="../../static/img/index_img/product-bg02.png" alt>
+                <img class="width_100" src="../../static/img/camera.jpg" alt>
                 <div class="width_70 margin_auto text_center">
                     <h2 class="padding_top_20">Digital Mobile Content</h2>
                     <div class="margin_top_20">We have abundant mobile content ranging from games, videos, adult to fitness. The content is updated regularly by professional team. We also help monetize the content of third-party partners. </div>
@@ -147,7 +146,7 @@
                 </div>
             </div>
             <div class="phone_service margin_top_10">
-                <img class="width_100" src="../../static/img/index_img/product-bg01.png" alt>
+                <img class="width_100" src="../../static/img/computer.jpg" alt>
                 <div class="width_70 margin_auto text_center">
                     <h2 class="padding_top_20">Marketing and Advertising </h2>
                     <div class="margin_top_20 mobile_sub_title">With our own media buy team and publisher partners, we are able to provide high quality traffic for companies globally. You can get overseas users easily and efficiently.</div>
