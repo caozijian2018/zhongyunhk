@@ -270,7 +270,7 @@ export default {
         transform-style: preserve-3d;
         transition-duration: 1.4s;
         -webkit-transform-style: preserve-3d;
-        cursor: pointer;
+        // cursor: pointer;
     }
     .jumpbutton {
         width: 30px;

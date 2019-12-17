@@ -13,7 +13,7 @@
                     <!-- 左面的出海描述 -->
                     <div class="left_box transform_duration1 transilateY3">
                         <h2 class="go_to_sea_title h1_font">ABOUT US</h2>
-                        <div class="go_to_sea_desc">
+                        <div class="go_to_sea_desc width_60">
                             Founded in 2016, Zhongyun HK Limited  
                             is a dynamic innovative company. Its founders are  
                              from Qinghua University, Hong Kong University of 
@@ -54,14 +54,14 @@
                             >
                         </div>
 
-                        <img
+                        <!-- <img
                             class="satellite star_fade"
                             :class="['satellite'+(index+1),'star_fade_'+index]"
                             v-for="(img_src,index) in star_img_arr"
                             :key="index"
                             :src="img_src"
                             alt
-                        >
+                        > -->
                     </div>
                 </div>
             </div>
